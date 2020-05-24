@@ -25,21 +25,21 @@ namespace Veterinaria.Web.Clase
         internal static void CheckSuperUser()
         {
             var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(db));
-            var userAsp = userManager.FindByName("admin@adminmail.com");
+            var userAsp = userManager.FindByName("admin@admin.com");
 
             if (userAsp == null)
             {
-                CreateUserASP("admin@adminmail.com", "admin2030", "Admin");
+                CreateUserASP("admin@admin.com", "491566", "Admin");
             }
         }
         
         internal static void CheckClientDefault()
         {
             var clientdb = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(db));
-            var userclient = clientdb.FindByName("cliente@veterinary.com");
+            var userclient = clientdb.FindByName("rodrigo@santana.com");
             if (userclient==null)
             {
-                CreateUserASP("cliente@veterinary.com","cliente123","Owner");
+                CreateUserASP("rodrigo@santana.com","491567","Owner");
             }
 
         }

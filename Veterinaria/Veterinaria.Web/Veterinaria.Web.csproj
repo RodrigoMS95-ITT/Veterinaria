@@ -189,6 +189,10 @@
     <Compile Include="Migrations\202005240012024_updatedb.Designer.cs">
       <DependentUpon>202005240012024_updatedb.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005240139394_otra.cs" />
+    <Compile Include="Migrations\202005240139394_otra.Designer.cs">
+      <DependentUpon>202005240139394_otra.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Consult.cs" />
@@ -209,6 +213,14 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\american-bully-2735008.jpg" />
+    <Content Include="Content\img\bernese-mountain-dog-216113.jpg" />
+    <Content Include="Content\img\cat-4988408.jpg" />
+    <Content Include="Content\img\discus-fish-1943755.jpg" />
+    <Content Include="Content\img\dog-3175810.jpg" />
+    <Content Include="Content\img\geese-5046359.jpg" />
+    <Content Include="Content\img\puppy-17473.jpg" />
+    <Content Include="Content\img\raccoon-3538081_1920.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -403,6 +415,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005240012024_updatedb.resx">
       <DependentUpon>202005240012024_updatedb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005240139394_otra.resx">
+      <DependentUpon>202005240139394_otra.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

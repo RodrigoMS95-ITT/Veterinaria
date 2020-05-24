@@ -1,1 +1,31 @@
 ﻿
+.foto {
+    height: 100%;
+    width: 100%;
+}
+
+.space {
+    padding-top: 50px;
+}
+
+.display1 {
+    color: black;
+    text-align: center;
+}
+
+.display2 {
+    color: black;
+}
+
+.display3 {
+    text-align: center;
+}
+
+.palabras {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.palabras2 {
+    font-size: 20px;
+}
