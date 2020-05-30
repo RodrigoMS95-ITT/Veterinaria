@@ -193,6 +193,18 @@
     <Compile Include="Migrations\202005240139394_otra.Designer.cs">
       <DependentUpon>202005240139394_otra.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005281948342_Add-ForeingPet.cs" />
+    <Compile Include="Migrations\202005281948342_Add-ForeingPet.Designer.cs">
+      <DependentUpon>202005281948342_Add-ForeingPet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005300948510_aver.cs" />
+    <Compile Include="Migrations\202005300948510_aver.Designer.cs">
+      <DependentUpon>202005300948510_aver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005301018057_UOwner.cs" />
+    <Compile Include="Migrations\202005301018057_UOwner.Designer.cs">
+      <DependentUpon>202005301018057_UOwner.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Consult.cs" />
@@ -394,6 +406,7 @@
     <Content Include="Views\Owners\Details.cshtml" />
     <Content Include="Views\Owners\Edit.cshtml" />
     <Content Include="Views\Owners\Index.cshtml" />
+    <Content Include="Views\Pets\AllPets.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -418,6 +431,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005240139394_otra.resx">
       <DependentUpon>202005240139394_otra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005281948342_Add-ForeingPet.resx">
+      <DependentUpon>202005281948342_Add-ForeingPet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005300948510_aver.resx">
+      <DependentUpon>202005300948510_aver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005301018057_UOwner.resx">
+      <DependentUpon>202005301018057_UOwner.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

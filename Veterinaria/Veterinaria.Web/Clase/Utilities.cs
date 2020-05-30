@@ -40,6 +40,14 @@ namespace Veterinaria.Web.Clase
             if (userclient==null)
             {
                 CreateUserASP("rodrigo@santana.com","491567","Owner");
+                userclient = clientdb.FindByName("rodrigo@santana.com");
+                var owner = new Owner
+                {
+                    UserId = userclient.Id,
+                };
+
+                db.Owners.Add(owner);
+                db.SaveChanges();
             }
 
         }
