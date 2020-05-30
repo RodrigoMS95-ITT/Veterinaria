@@ -49,7 +49,7 @@
                 <h6 class="text-center">Nueva Mascota</h6>
             </div>
             <div class="modal-body">
-                <form action="@Url.Action("Create","Pets")" method="post">
+                <form action="@Url.Action("Create","Pets")" method="post" enctype="multipart/form-data">
                     @Html.AntiForgeryToken()
                     <div class="row justify-content-between">
                         <div class="col-md-6">
@@ -129,7 +129,7 @@
                     <div class="form-group">
                         Fotografia
                         <div class="col-md-10">
-                            <input type="file" name="hpb" value="" class="form-control" />
+                            <input type="file" name="hpb" value="" class="form-control-file"/>
                         </div>
                     </div>
                     <div class="col-md-10">

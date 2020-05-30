@@ -9,6 +9,8 @@ namespace Veterinaria.Web.Models
 {
     public class Owner
     {
+        internal int id;
+
         public int Id { get; set; }
         public string UserId { get; set; }
         [ForeignKey("UserId")]
